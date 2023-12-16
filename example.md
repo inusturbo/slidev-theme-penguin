@@ -7,22 +7,23 @@ highlighter: shiki
 title: Slidev Penguin Theme
 themeConfig:
   logoHeader: '/avatar.png'
-  eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-  eventUrl: 'https://vuejs.amsterdam/'
-  twitter: '@alvarosabu'
-  twitterUrl: 'https://twitter.com/alvarosabu'
+  eventLogo: '/IMDLab-Logo-black.png'
+  eventUrl: 'https://imdl.naist.jp/'
 ---
 
 
-# A penguin Slidev Theme
+# Reduction of Autonomous Vehicle Stress
+# with Augmented Reality 
 
-🐧 slides for developers
+MA Shanpeng 
 
 <div class="pt-12">
   <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
     Press Space for next page <carbon:arrow-right class="inline"/>
   </span>
 </div>
+
+Say hi at <fancy-link href="https://ma.shanpeng.im/">ma.shanpeng.im</fancy-link>
 
 ---
 layout: presenter

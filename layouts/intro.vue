@@ -13,17 +13,23 @@
 </template>
 
 <style>
-.slidev-layout.intro {
-  h1 {
-    @apply text-6xl leading-20 font-display font-extrabold text-primary;
-  }
 
-  h1 + p {
-    @apply opacity-60 -mt-4 text-2xl;
-  }
+.slidev-layout.intro h1:first-of-type {
+  margin-top: 100px;
+  @apply text-4xl leading-4 font-display font-extrabold text-primary;
+}
 
-  a {
-    @apply text-secondary-400 hover:text-secondary-500 dark:(text-white hover:text-gray-200);
-  }
+.slidev-layout.intro h1 {
+  @apply text-4xl leading-4 font-display font-extrabold text-primary;
+}
+
+.slidev-layout.intro h1 + p {
+  margin-top: 20px;
+  @apply opacity-60 -mt-1 text-2xl leading-20 ;
+}
+
+.slidev-layout.intro a {
+  margin-top: 30px;
+  @apply text-secondary-400 hover:text-secondary-500 dark:(text-white hover:text-gray-200);
 }
 </style>
